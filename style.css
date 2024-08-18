@@ -7,7 +7,7 @@
     --grayish-blue: hsl(212, 23%, 69%);
     --light-grayish-blue: hsl(210, 46%, 95%);
 
-
+    --manrope: "Manrope";
 }
 
 * {
@@ -15,11 +15,57 @@
     margin: 0px;
     box-sizing: border-box;
     line-height: calc(1em + 0.5rem);
+    font-family: var(--manrope);
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 50px 20px 10px 20px;
     min-height: 100vh;
+    background-color: hsl(210, 46%, 90%);
 }
+
+main {
+    background-color: white;
+    min-width: 280px;
+    max-width: 340px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+div.image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+div.description {
+    padding: 30px;
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.profile img:first-child {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile img:last-child {
+    width: 20px;
+}
+
+
 
 .attribution { font-size: 1rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
