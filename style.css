@@ -31,13 +31,13 @@ body {
 }
 
 h1 {
-    font-size: 1.1rem;
+    font-size: 0.4rem;
     color: var(--very-dark-grayish-blue);
     margin-bottom: 20px;
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 0.3rem;
     font-weight: 500;
     color: var(--desaturated-dark-blue);
 }
@@ -56,7 +56,7 @@ div.image img {
     object-fit: cover;
 }
 
-div.description {
+div.text {
     padding: 30px;
 }
 
@@ -79,6 +79,10 @@ div.description {
 
 .profile img:last-child {
     width: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    
 }
 
 
