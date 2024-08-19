@@ -31,13 +31,13 @@ body {
 }
 
 h1 {
-    font-size: 0.4rem;
+    font-size: 1.1rem;
     color: var(--very-dark-grayish-blue);
     margin-bottom: 20px;
 }
 
 p {
-    font-size: 0.3rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: var(--desaturated-dark-blue);
 }
