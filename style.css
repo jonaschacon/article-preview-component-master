@@ -30,6 +30,18 @@ body {
     background-color: hsl(210, 46%, 90%);
 }
 
+h1 {
+    font-size: 1.1rem;
+    color: var(--very-dark-grayish-blue);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--desaturated-dark-blue);
+}
+
 main {
     background-color: white;
     min-width: 280px;
@@ -52,12 +64,16 @@ div.description {
 .profile {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 15px;
     padding: 30px;
 }
 
+.profile-info {
+    flex-grow: 1;
+}
+
 .profile img:first-child {
-    width: 50px;
+    width: 45px;
     border-radius: 50%;
 }
 
