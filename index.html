@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Article preview component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,39 +15,57 @@
     <div class="image">
       <img src="images/drawers.jpg" alt="">
     </div>
-    <div class="description">
-      
-      <div class="text">
-        <h1>Shift the overall look and feel by adding these wonderful 
-          touches to furniture in your home</h1>
-        <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+    
+    <div class="container">
+      <div class="text-content">
+        <h1>
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </h1>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.
         </p>
       </div>
-
-      <div class="profile">
-        <img src="images/avatar-michelle.jpg" alt="">
-        <div class="profile-info">
-          <p>Michelle Appleton</p>
-          <p>28 Jun 2020</p>
+      <div class="profile-card">
+        <div class="profile">
+          <img src="images/avatar-michelle.jpg" alt="avatar">
+          <div class="profile-info">
+            <p>Michelle Appleton</p>
+            <p>28 Jun 2020</p>
+          </div>
         </div>
-        <img src="images/icon-share.svg" alt="">
+  
+        <div class="share1">
+          <p class="text-style1">share</p>
+            <a href="#"><img src="images/icon-facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="images/icon-twitter.svg" alt="twitter"></a>
+            <a href="#"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+        </div>
+  
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+          <div class="share2">
+            <p class="text-style1">share</p>
+            <a href="#"><img src="images/icon-facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="images/icon-twitter.svg" alt="twitter"></a>
+            <a href="#"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+          </div>
+        </div>
       </div>
-      
     </div>
     
   </main>
-  
+
   <footer>
     <div class="attribution">
       <p>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       </p>
-      <p>
-        Coded by <a href="#">Your Name Here</a>.
-      </p>
+      <p>Coded by <a href="https://github.com/jonaschacon">Jonas Chacon</a>.</p>
     </div>
   </footer>
-
-  
+  <script src="script.js"></script>
 </body>
 </html>

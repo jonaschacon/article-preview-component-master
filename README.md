@@ -10,13 +10,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,6 +22,10 @@ Users should be able to:
 - See the social media share links when they click the share icon
 
 ### Screenshot
+
+![alt text](image.png)
+
+![alt text](image-1.png)
 
 
 ### Links
@@ -43,8 +41,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-
 
 ### What I learned
 
