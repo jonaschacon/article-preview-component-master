@@ -11,11 +11,11 @@ icon.addEventListener("click", () => {
         if (profile.style.display == "flex") {
             profile.style.display = "none";
             share1.style.display = "flex";
-            profileCard.classList.add("share");
+            profileCard.style.backgroundColor = "#48556a";
         } else {
             profile.style.display = "flex";
             share1.style.display = "none";
-            profileCard.classList.remove("share");
+            profileCard.style.backgroundColor = "#ffffff";
         }
         
     }
@@ -26,6 +26,6 @@ window.addEventListener("resize", () => {
     if (window.innerWidth > 700) {
         share1.style.display = "none";
         profile.style.display = "flex";
-        profileCard.classList.remove("share");
+        profileCard.style.backgroundColor = "#ffffff";
     }
 })
